@@ -1,0 +1,894 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec-1{
+    background-image: url(laptop.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 55, 235, 0.76);
+    background-blend-mode: darken;
+    padding-top: 0.02px;
+    transition: all 1s ease-in;
+    position: relative;
+}
+#z{
+    background-color: blue;
+}
+.hed{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px;
+    position: fixed;
+    background-color: rgba(0, 0, 255, 0.253);
+    z-index:  100;
+}
+.hed-div{
+    margin-left: 100px;
+}
+.g-nm{
+    font-family: square721 bt;
+    color: white;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    margin-left: 350px;
+    gap: 50px;
+    margin-right: 233px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-family: monospace;
+    color: white;
+    font-size: 19px;
+}
+.mg1{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    transition: all 2s ease-in;
+    display: none;
+}
+.mg2{
+    width: 30px;
+    height: 30px;
+    margin-left: 20zzzzzpx;
+    transition: all 2s ease-in;
+    display: none;
+}
+.mg1:active{
+    transform: scale(0.8);
+}
+.mg2:active{
+    transform: scale(0.8);
+}
+.lin{
+    cursor: pointer;
+    font-family: monospace;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.lin:hover{
+    transform: scale(1.2);
+    color: rgb(36, 36, 245);
+}
+.g-div{
+    margin-top: 170px;
+    margin-left: px;
+    text-align: center;
+}
+.game{
+    font-family: arial;
+    color: white;
+    font-weight: bolder;
+    font-size: 78px;
+}
+.menu-div{
+    background-color: black;
+    width: 280px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    z-index: 999;
+    display: none;
+    position: fixed;
+    flex-direction: column;
+}
+.lor{
+    font-family: monospace;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.strt{
+    width: 190px;
+    height: 55px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 16, 61);
+    transition: all 1s ease-out;
+}
+.strt:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.strt:active{
+    background-color: blue;
+    color: white;
+    border: none;
+    transform: scale(0.8);
+}
+.chev{
+    position: absolute;
+    bottom: 350px;
+    display: flex;
+    margin-top: 300px;
+    
+}
+.lft{
+    width: 30px;
+    margin-left: 30px;
+}
+.rht{
+    width: 30px;
+    margin-left: 10px;
+    right: 28px;
+}
+.lft-div{
+    background-color: rgba(1, 47, 253, 0.404);
+    width: 70px;
+    height: 35px;
+    padding-top: 5px;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+}
+.rht-div{
+    background-color: rgba(1, 47, 253, 0.404);
+    width: 70px;
+    height: 35px;
+    padding-top: 5px;
+    align-items: center;
+    /* position: absolute; */
+    right: 0px;
+    margin-left: 1210px;
+    border-radius: 20px 0px 0px 20px;
+}
+.div-rg{
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    width: fit-content;
+    bottom: 40px;
+    left: 645px;
+}
+.ring{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.ring-2{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%
+}
+.ring-3{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%
+}
+.sec-2{
+    text-align: center;
+    height: 320px;
+    padding-top: 20px;
+    /* background-color: white; */
+    align-items: center;
+}
+.wlc-div{
+    height: 250px;
+    margin-top: 30px;
+    /* width: 700px; */
+}
+.wlc{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+}
+.line{
+    width: 55px;
+    height: 6px;
+    background-color: blue;
+    border-radius: 20px;
+    /* justify-self: center; */
+    margin-left: 640px;
+    margin-top: 7px;
+}
+.lom{
+    font-family: arial;
+    font-size: 16px;
+    text-wrap: 10px;
+    margin-top: 26px;
+    color: rgb(51, 51, 240);
+}
+.read{
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 20px;
+    color: blue;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.read:hover{
+ border: none;
+ background-color: rgba(0, 0, 255, 0.438);
+ color: white;
+}
+.read:active{
+    background-color: rgb(0, 0, 126);
+    border: none;
+}
+.sec-3{
+    height: 290px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 290px;
+    background-color: blue;
+    text-align: center;
+    transition: all 1s ease-out;
+}
+.box:hover{
+    transform: scaleY(1.1);
+}
+.box-mid{
+    width: 400px;
+    height: 290px;
+    background-color: black;
+    text-align: center;
+    transition: all 1s ease-out;
+}
+.box-mid:hover{
+    transform: scale(1.1);
+}
+.tim{
+    width: 60px;
+    margin-top: 30px;
+}
+.story{
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.rem{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.sec-4{
+    height: 500px;
+}
+.s-div{
+    text-align: center;
+    margin-top: 60px;
+}
+.serv{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+}
+.ore{
+    font-family: arial;
+    font-size: 16px;
+    text-wrap: 10px;
+    margin-top: 23px;
+    color: rgb(51, 51, 240);
+}
+.line-2{
+    width: 55px;
+    height: 6px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-left: 650px;
+    margin-top: 7px;
+}
+.thr{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.inner{
+    width: 300px;
+    height: 75px;
+    background-color: rgb(175, 181, 238);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    position: relative;
+}
+.inner:hover{
+    transform: scaleX(1.05);
+}
+.inner p{
+    font-family: arial;
+    color: blue;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.lgs{
+    width: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cont{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    background-color: rgb(139, 144, 206);
+    border: 3px solid rgb(1, 1, 104);
+    border-radius: 50%;
+    left: -16px;
+}
+.thr-2{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.thr-3{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.sec-5{
+    height: 250px;
+    background-color: blue;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.evt-div{
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: 40px;
+}
+.all{
+    text-align: center;
+}
+.evt{
+    width: 55px;
+    margin-top: 7px;
+    margin-left: px;
+}
+.num{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+}
+.txt{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.evt-dv{
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    margin-left: 10px;
+}
+.deve{
+    margin-top: 22px;
+    display: flex;
+    gap: 20px;
+    margin-left: 420px;
+}
+.velop{
+    font-family: arial;
+    color: blue;
+    font-size: 15px;
+}
+.ig-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ig-div-2{
+    display: flex;
+    justify-content: center;
+}
+.ig{
+    width: 360px;
+    height: 220px;
+    transition: all 0.5s;
+    filter: grayscale(2);
+}
+.ig:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+
+}
+.min{
+    background-color: blue;
+    height: 50px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+.min p{
+    margin-top: 20px;
+    font-family: square721 bt;
+    font-size: 40px;
+    color: white;
+}
+.get{
+    background-color: red;
+}
+/* responsiveness */
+
+/* TABLET 768px max width */
+
+@media(max-width:768px){
+    body{
+        background-color: red;
+        width: auto;
+    }
+    nav{
+        margin-left: 60px;
+        margin-right: 80px;
+    }
+    .chev{
+        width: 768px;
+        bottom: 300px;
+    }
+    .rht-div{
+        margin-left: 640px;
+    }
+    ul{
+        font-size: 0.6rem;
+        gap: 35px;
+    }
+    .hed-div{
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+    .g-div{
+        margin-top: 230px;
+    }
+    .lor{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .game{
+        font-size: 65px;
+    }
+    .div-rg{
+        left: 360px;
+        bottom: 20px;
+    }
+    .sec-1{
+        
+    }
+    .wlc{
+        font-size: 27px;
+    }
+    .line{
+        margin-left: 360px;
+    }
+    .sec-3{
+        margin-top: 20px;
+    }
+    .box{
+        width: 250px;
+    }
+    .box-mid{
+        width: 250px;
+    }
+    .tim{
+        width: 50px;
+    }
+    .story{
+        font-size: 20px;
+    }
+    .rem{
+        font-size: 12px;
+    }
+    .serv{
+        font-size: 25px;
+    }
+    .line-2{
+        margin-left: 360px;
+    }
+    .lom{
+        font-size: 14px;
+    }
+    .cont{
+        width: 60px;
+        height: 60px;
+    }
+    .thr{
+        padding-left: 12px;
+    }
+    .thr-2{
+        padding-left: 12px;
+    }
+    .thr-3{
+        padding-left: 12px;
+    }
+    .inner{
+        height: 60px;
+        width: 200px;
+    }
+    .inner p{
+        font-size: 12px;
+        margin-left: 52px;
+    }
+    .lgs{
+        width: 40px;
+    }
+    .evt-div{
+        width: 60px;
+        height: 60px;
+        margin-left: 48px;
+    }
+    .evt-dv{
+        width: 60px;
+        height: 60px;
+    }
+    .evt{
+        width: 45px;
+    }
+    .num{
+        font-size: 43px;
+    }
+    .ore{
+
+    }
+    .deve{
+        margin-left: 130px;
+    }
+    .ig{
+        width: 250px;
+        height: 180px;
+    }
+}
+
+@media(max-width: 425px){
+    .mg1{
+        display: inline;
+        margin-right: -40px;
+        margin-left: 100px;
+        width: 40px;
+        height: 40px;
+    }
+    .mg2{
+        display: inline;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    ul{
+        width: 400px;
+        display: none;
+    }
+    .sec-1{
+        height: 550px;
+    }
+    .chev{
+        width: 425px;
+        bottom: 300px;
+    }
+    .rht-div{
+        margin-left: 300px;
+    }
+    .hed-div{
+        font-size: 0.8rem;
+    }
+    .g-div{
+        margin-top: 230px;
+    }
+    .lor{
+        font-size: 12px;
+    }
+    .game{
+        font-size: 48px;
+    }
+    .div-rg{
+        left: 180px;
+    }
+    .wlc{
+        font-size: 27px;
+    }
+    .line{
+        margin-left: 180px;
+    }
+    .sec-3{
+        margin-top: 70px;
+        /* display: block; */
+    }
+    .tim{
+        width: 35px;
+        margin-top: 17px;
+    }
+    .rem{
+        font-size: 11px;
+    }
+    .line-2{
+        margin-left: 180px;
+    }
+    .lom{
+        font-size: 12px;
+    }
+    .ain{
+        /* display: ; */
+    }
+    .thr{
+        padding-left: 50px;
+        display: block;
+
+    }
+    .thr-2{
+        padding-left: 50px;
+        display: block;
+    }
+    .thr-3{
+        padding-left: 50px;
+        display: block;
+    }
+    .inner{
+        width: 350px;
+    }
+    .inner p{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    #inn-2{
+        margin-top: 10px;
+    }
+    #inn-3{
+        margin-top: 10px;
+    }
+    #inn-4{
+        margin-top: 110px;
+    }
+    #inn-5{
+        margin-top: 10px;
+    }
+    #inn-6{
+        margin-top: 80px;
+    }
+    #inn-7{
+        margin-top: 40px;
+    }
+    #inn-8{
+        margin-top: 80px;
+    }
+    #inn-9{
+        margin-top: 10px;
+    }
+    .sec-5{
+        margin-top: 300px;
+        /* justify-content: space-between; */
+       
+    }
+    .all{
+        margin-right: 25px;
+    }
+    .evt-div{
+        width: 53px;
+        height: 53px;
+        margin-left: 16px;
+    }
+    .evt-dv{
+        width: 53px;
+        height: 53px;
+        margin-left: 2px;
+    }
+    .evt{
+        width: 34px;
+        margin-top: 9px;
+    }
+    .num{
+        font-size: 30px;
+    }
+    .deve{
+        margin-left: 15px;
+    }
+    .ig{
+        width: 140px;
+        height: 110px;
+    }
+    .min{
+        padding-top: 1px;
+    }
+    .min p{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:320px){
+    .hed{
+        width: 320px;
+    }
+    .mg1{
+        margin-left: 40px;
+        margin-right: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    .mg2{
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+    .menu-div{
+        width: 240px;
+        height: 300px;
+        line-height: 0px;
+    }
+    .chev{
+        width: auto;
+    }
+    .lu{
+        line-height: 10px;
+    }
+    .hed-div{
+        margin-left: 10px;
+    }
+    .g-nm{
+        font-size: 40px;
+    }
+    .lin{
+        font-size: 16px;
+    }
+    .rht-div{
+        margin-left: 200px;
+        width: 60px;
+    }
+    .lft-div{
+        width: 60px;
+    }
+    .lft{
+        margin-left: 20px;
+    }
+    .rht{
+        margin-left: 10px;
+    }
+    .g-div{
+        margin-top: 130px;
+    }
+    .strt{
+        width: 150px;
+        height: 45px;
+        font-size: 15px;
+    }
+    .div-rg{
+        left: 130px;
+        bottom: 20px;
+    }
+    .ring{
+        width: 17px;
+        height: 17px;
+    }
+    .ring-2{
+        width: 17px;
+        height: 17px;
+    }
+    .ring-3{
+        width: 17px;
+        height: 17px;
+    }
+    .wlc{
+        font-size: 25px;
+    }
+    .line{
+        margin-left: 135px;
+    }
+    .tim{
+        width: 30px;
+    }
+    .rem{
+        font-size: 9px;
+    }
+    .line-2{
+        margin-left: 135px;
+    }
+    .inner{
+        width: 270px;
+    }
+    .thr{
+        padding-left: 35px;
+    }
+    .thr-2{
+        padding-left: 35px;
+    }
+    .thr-3{
+        padding-left: 35px;
+    }
+    .inner p{
+        font-size: 17px;
+        margin-left: 56px;
+    }
+    #d1{
+        margin-left: 10px;
+    }
+    #d2{
+        margin-left: px;
+    }
+    #d3{
+        margin-left: 0px;
+    }
+    #d4{
+        margin-left: 2px;
+    }
+ 
+    .evt-div{
+        width: 42px;
+        height: 42px;
+        margin-left: 5px;
+    }
+    .evt-dv{
+        width: 42px;
+        height: 42px;
+        margin-left: -30px;
+    }
+    .evt{
+        width: 28px;
+    }
+    .num{
+        font-size: 20px;
+    }
+    .txt{
+        font-size: 11px;
+    }
+    .velop{
+        font-size: 10px;
+    }
+    .ig{
+        width: 110px;
+        height: 60px;
+    }
+    .min p{
+        font-size: 17px;
+    }
+}
